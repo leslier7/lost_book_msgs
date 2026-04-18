@@ -15,7 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Light.msg"
-  "msg/TOF.msg"
+  "msg/Tof.msg"
 )
 
 if(BUILD_TESTING)
